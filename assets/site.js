@@ -21,7 +21,7 @@ document.head.appendChild(extraStyle);
 
 function reshapeHome(){
  const pg=document.querySelector("#homeView .people-grid");
- if(pg){const section=pg.closest("section");section.innerHTML=`<div class="container"><button class="people-feature" data-page="people"><div class="people-feature-visual"><img src="assets/img/team-strengths.jpg?v=20260922-2" alt="4人それぞれの強みを表したSolegeoメンバーのイラスト"></div><div class="people-feature-copy"><div class="kicker">PEOPLE</div><h2>4人、4つの強み。</h2><p>経営、デザイン、人材強化、人事。それぞれ違う得意分野を持つ4人の考え方や、実際に働いて感じていることをご紹介します。</p><span>メンバー紹介・社員インタビューを見る <b>→</b></span></div></button></div>`;}
+ if(pg){const section=pg.closest("section");section.innerHTML=`<div class="container"><button class="people-feature" data-page="people"><div class="people-feature-visual"><img src="assets/img/team-strengths-v2.jpg?v=20260922-3" alt="4人それぞれの強みを表したSolegeoメンバーのイラスト"></div><div class="people-feature-copy"><div class="kicker">PEOPLE</div><h2>4人、4つの強み。</h2><p>経営、デザイン、人材強化、人事。それぞれ違う得意分野を持つ4人の考え方や、実際に働いて感じていることをご紹介します。</p><span>メンバー紹介・社員インタビューを見る <b>→</b></span></div></button></div>`;}
  const bg=document.getElementById("blog");
  if(bg){bg.removeAttribute("id");bg.innerHTML=`<div class="container"><button class="blog-strip" data-page="blog"><div><div class="kicker" style="color:#ffbc96">BLOG / COLUMN</div><h2>仕事・学び・挑戦を、言葉にする。</h2><p>販売現場、採用、SNS、AI、業務改善。実際に試したことを、Solegeoの視点で記事にしていきます。</p><div class="blog-tags"><span>RECRUIT</span><span>AI / DX</span><span>SNS</span><span>CREATIVE</span></div></div><strong>ブログ・コラムを見る →</strong></button></div>`;}
  document.querySelectorAll('[data-home-anchor="blog"]').forEach(el=>{el.removeAttribute("data-home-anchor");el.dataset.page="blog"});
