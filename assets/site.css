@@ -25,3 +25,14 @@ footer{border-top:1px solid var(--line);padding:24px 0 32px;background:#fff}.foo
 @media(max-width:620px){.container{width:min(100% - 22px,1180px)}.nav{height:66px}.mobile-panel{top:66px}.brand img{width:42px;height:42px}.brand strong{font-size:18px}.hero{padding:30px 0 34px}.hero h1{font-size:43px}.lead{font-size:15px}.actions{display:grid}.actions .btn{width:100%}.hero-visual{min-height:300px}.quick{margin-top:-5px}.quick-grid{grid-template-columns:repeat(2,1fr);padding:9px}.service-grid,.values,.content-grid,.blog-grid,.people-grid{grid-template-columns:1fr}.section{padding:58px 0}.interview{grid-template-columns:1fr}.interview img{height:320px}.qa{grid-template-columns:1fr;gap:3px}.row{grid-template-columns:1fr;gap:3px}.flow,.career{grid-template-columns:1fr}.cta{display:grid}.cta .btn{width:100%}.job dl{grid-template-columns:1fr}.job dt{padding-bottom:0;border-bottom:0}.job dd{padding-top:3px}.foot{align-items:flex-start;flex-direction:column}.foot-links{flex-wrap:wrap}.foot-social{flex-wrap:wrap}.cookie.show{display:grid}.cookie-actions{width:100%}.cookie button{flex:1}}
 /* Keep Japanese headings and paragraphs from ending in short fragments. */
 h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
+
+/* Let narrow screens wrap Japanese copy at the available width. */
+@media(max-width:620px){
+ br.desktop-break{display:none}
+ .hero h1{font-size:clamp(34px,10vw,43px);line-height:1.16;letter-spacing:-.045em}
+ .section h2{font-size:clamp(28px,8vw,36px);line-height:1.25;letter-spacing:-.035em}
+ .page-title{font-size:clamp(31px,8.8vw,40px);line-height:1.24;letter-spacing:-.035em}
+ .page-lead{font-size:16px;line-height:1.8;max-width:100%}
+ .hero .lead,.section-intro,.content-card p,.recruit-callout p{line-height:1.8}
+ .page-title,.page-lead,.content-card p,.blog-strip h2,.recruit-callout h2{overflow-wrap:anywhere}
+}
