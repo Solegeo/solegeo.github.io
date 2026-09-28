@@ -36,3 +36,14 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  .hero .lead,.section-intro,.content-card p,.recruit-callout p{line-height:1.8}
  .page-title,.page-lead,.content-card p,.blog-strip h2,.recruit-callout h2{overflow-wrap:anywhere}
 }
+
+/* Keep the two-line hero and short terms intact at phone widths. */
+.hero h1{font-size:clamp(40px,4.2vw,60px)}
+.hero-title-line{display:block;white-space:nowrap}
+.hero-title-next{text-align:right}
+.no-break{white-space:nowrap}
+@media(max-width:620px){
+ .hero h1{font-size:clamp(34px,10vw,43px);line-height:1.16;letter-spacing:-.045em}
+ .section h2.business-heading{font-size:clamp(27px,7.5vw,34px)}
+ .mobile-line{display:block}
+}
