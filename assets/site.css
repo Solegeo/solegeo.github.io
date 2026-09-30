@@ -78,6 +78,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .about-copy{min-width:0}
 .about-copy p{text-wrap:wrap;max-width:none}
 
-/* Fit the quoted value sentence to the card without wrapping. */
+/* Keep the value sentence larger and darker than the supporting copy. */
 .about-copy{container-type:inline-size}
-.about-copy .about-value{display:block;white-space:nowrap;font-size:.88em;font-size:min(1em,4.2cqw);letter-spacing:-.04em}
+.about-copy p{font-size:14px;font-size:min(15px,3.9cqw);line-height:1.85}
+.about-copy .about-value{display:block;white-space:nowrap;font-size:15px;font-size:min(17px,4.2cqw);letter-spacing:-.04em;font-weight:900;color:var(--ink);margin-top:.3em}
+@media(max-width:620px){.about-copy{padding:22px 18px}.about-copy .link-btn{font-size:14px}}
