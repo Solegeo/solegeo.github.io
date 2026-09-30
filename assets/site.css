@@ -87,3 +87,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 .about-name-break{display:none}
 @media(max-width:620px){.about-name-break{display:block}}
+
+/* Match the About heading's two-line alignment. */
+.business-heading-line{display:block;white-space:nowrap}
+.business-heading-line--indent{text-align:right}
