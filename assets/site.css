@@ -84,4 +84,4 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .about-copy .about-value{display:block;white-space:nowrap;font-size:15px;font-size:min(18px,4.35cqw);letter-spacing:-.055em;font-weight:900;color:var(--ink);margin-top:.3em}
 @media(max-width:620px){.about-copy{padding:22px 14px}.about-copy .link-btn{font-size:14px}}
 
-.about-copy .about-challenge{font-weight:900;color:var(--ink);white-space:nowrap}
+.about-copy .about-challenge{font-size:15px;font-size:min(18px,4.35cqw);letter-spacing:-.055em;font-weight:900;color:var(--ink);white-space:nowrap}
