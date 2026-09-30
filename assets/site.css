@@ -68,4 +68,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 .lead-line{display:block}
 
-.about-heading-line{display:block}.about-heading-line--indent{padding-left:3em;font-size:.74em;white-space:nowrap}
+.section h2.about-heading{font-size:clamp(40px,4.2vw,52px);line-height:1.07;letter-spacing:-.055em}
+.about-heading-line{display:block;white-space:nowrap}.about-heading-line--indent{text-align:right}
+@media(max-width:620px){.section h2.about-heading{font-size:clamp(34px,10vw,43px);line-height:1.16;letter-spacing:-.075em}}
+@media(max-width:360px){.section h2.about-heading{font-size:10vw}}
