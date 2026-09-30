@@ -68,4 +68,4 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 .lead-line{display:block}
 
-.about-heading-line{display:block}.about-heading-line--indent{padding-left:.25em}
+.about-heading-line{display:block}.about-heading-line--indent{padding-left:3em;font-size:.74em;white-space:nowrap}
