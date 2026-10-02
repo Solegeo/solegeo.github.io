@@ -126,3 +126,6 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 /* Fit this 26-character sentence by spacing, keeping the inherited font size. */
 .message-one-line{display:inline-block;white-space:nowrap;letter-spacing:min(0px,calc((100cqw - 26em)/26))}
 
+
+/* Use the privacy notice width with natural line wrapping. */
+.privacy-note p{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:break-word}
