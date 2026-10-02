@@ -119,3 +119,6 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 /* Move the message down by two body-text lines within its existing space. */
 .message-main{position:relative;top:3.7em}
+
+/* Return only the heading upward by two body-text lines. */
+.message-main>h2{position:relative;top:-59.2px}
