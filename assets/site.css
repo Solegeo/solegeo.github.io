@@ -113,3 +113,6 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .message-grid{align-items:center}
 .message-main p{text-align:left}
 .message-main p:last-child{margin-bottom:0}
+
+.message-main{container-type:inline-size}
+.message-closing{display:block;white-space:nowrap;font-size:min(1em,3.5cqw)}
