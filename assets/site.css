@@ -108,3 +108,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 /* Use the full message column while preserving explicit paragraph breaks. */
 .message-main{min-width:0;width:100%}
 .message-main p{width:100%;max-width:none;text-wrap:wrap;line-height:1.85;overflow-wrap:break-word}
+
+/* Center the representative message and avoid a trailing empty gap. */
+.message-grid{align-items:center}
+.message-main p{text-align:center}
+.message-main p:last-child{margin-bottom:0}
