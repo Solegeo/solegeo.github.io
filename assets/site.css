@@ -283,3 +283,12 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .message-main{padding-left:24px}
  #homeView .message-main p{text-align:left}
 }
+
+/* Refine desktop message rhythm and emphasis without changing mobile copy. */
+@media (min-width:921px){
+ #homeView .message-main{padding-left:16px}
+ #homeView .message-main>h2{color:#111;margin-bottom:24px}
+ #homeView .message-main p{line-height:1.75;margin-bottom:20px}
+ #homeView .message-main p:nth-of-type(3){font-weight:700;color:#222}
+ #homeView .message-main p:last-child{margin-bottom:0}
+}
