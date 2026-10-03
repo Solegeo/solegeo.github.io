@@ -213,3 +213,47 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .blog-strip .kicker{font-size:13px}
  #homeView .blog-tags span{font-size:12px;padding:7px 12px}
 }
+
+/* Balance the desktop callouts: title on the left, copy and action on the right. */
+@media (min-width:921px){
+ #homeView .recruit-callout,
+ #homeView .blog-strip{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);
+  gap:22px 44px;
+  align-items:start;
+  padding:40px;
+ }
+ #homeView .recruit-callout>div:first-child,
+ #homeView .blog-strip>div:first-child{display:contents}
+ #homeView .recruit-callout .kicker,
+ #homeView .blog-strip .kicker{grid-column:1;grid-row:1;margin:0}
+ #homeView .recruit-callout h2,
+ #homeView .blog-strip h2{
+  grid-column:1;
+  grid-row:2 / span 3;
+  font-size:clamp(32px,3.2vw,44px);
+  margin:0;
+ }
+ #homeView .recruit-callout p,
+ #homeView .blog-strip p{
+  grid-column:2;
+  grid-row:1 / span 2;
+  margin:0;
+ }
+ #homeView .recruit-callout>div:last-child{
+  grid-column:2;
+  grid-row:3;
+  justify-self:end;
+ }
+ #homeView .blog-strip .blog-tags{
+  grid-column:2;
+  grid-row:3;
+  margin:0;
+ }
+ #homeView .blog-strip>strong{
+  grid-column:2;
+  grid-row:4;
+  justify-self:end;
+ }
+}
