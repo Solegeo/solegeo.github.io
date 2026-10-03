@@ -258,3 +258,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
   justify-self:end;
  }
 }
+
+/* Keep complete phrases together in the narrower desktop copy column. */
+@media (min-width:921px){
+ #homeView .recruit-callout p br:nth-of-type(3),
+ #homeView .recruit-callout p br:nth-of-type(7),
+ #homeView .blog-strip p br:nth-of-type(2){display:initial}
+}
