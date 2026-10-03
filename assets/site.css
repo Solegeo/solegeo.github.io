@@ -240,6 +240,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
   grid-column:2;
   grid-row:1 / span 2;
   margin:0;
+  text-wrap:balance;
  }
  #homeView .recruit-callout>div:last-child{
   grid-column:2;
