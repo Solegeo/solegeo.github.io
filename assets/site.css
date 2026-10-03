@@ -277,3 +277,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  }
  #homeView .message-main p:last-child{margin-bottom:0}
 }
+
+/* Align desktop representative body copy to the right edge of its column. */
+@media (min-width:921px){
+ #homeView .message-main p{text-align:right}
+}
