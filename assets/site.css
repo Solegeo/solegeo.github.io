@@ -164,7 +164,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .message-main p{font-size:17px;line-height:1.9;margin-bottom:24px}
  #homeView .message-main p:last-child{margin-bottom:0}
  #homeView .message-keep-line{white-space:normal}
- #homeView .message-main p:nth-of-type(5)>br:last-of-type,
+ #homeView .message-main p:nth-of-type(6){text-wrap:balance}
  #homeView .message-main p:nth-of-type(6)>br:first-of-type,
  #homeView .message-main p:nth-of-type(7)>br{display:none}
  #homeView .people-feature-copy p{font-size:17px;line-height:1.85;text-wrap:wrap}
