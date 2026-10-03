@@ -278,7 +278,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .message-main p:last-child{margin-bottom:0}
 }
 
-/* Align desktop representative body copy to the right edge of its column. */
+/* Keep the desktop message together with a modest inset and a shared left edge. */
 @media (min-width:921px){
- #homeView .message-main p{text-align:right}
+ #homeView .message-main{padding-left:24px}
+ #homeView .message-main p{text-align:left}
 }
