@@ -311,3 +311,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
   line-height:1.75;
  }
 }
+
+/* Align the desktop message block with the requested inset beside the portrait. */
+@media (min-width:921px){
+ #homeView .message-main{padding-left:clamp(32px,4.4vw,60px)}
+}
