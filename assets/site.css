@@ -265,3 +265,15 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .recruit-callout p br:nth-of-type(7),
  #homeView .blog-strip p br:nth-of-type(2){display:initial}
 }
+
+/* Give the desktop representative message a readable scale across its column. */
+@media (min-width:921px){
+ #homeView .message-main p{
+  font-size:clamp(18px,1.65vw,22px);
+  line-height:1.85;
+  width:100%;
+  max-width:none;
+  margin-bottom:24px;
+ }
+ #homeView .message-main p:last-child{margin-bottom:0}
+}
