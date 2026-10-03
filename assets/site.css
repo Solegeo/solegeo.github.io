@@ -182,3 +182,14 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .privacy-note p{line-height:1.85}
  #homeView .privacy-note p br{display:none}
 }
+
+/* Keep desktop two-line titles together, matching the About title's inset. */
+@media (min-width:921px){
+ #homeView .business-heading-line--indent,
+ #homeView .message-main>h2>span:last-child,
+ #homeView .recruit-callout h2>span:last-child,
+ #homeView .blog-strip h2>span:last-child{
+  text-align:left !important;
+  padding-left:2.5em;
+ }
+}
