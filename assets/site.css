@@ -316,3 +316,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media (min-width:921px){
  #homeView .message-main{padding-left:clamp(32px,4.4vw,60px)}
 }
+
+/* Separate the mobile recruitment heading from the desktop wording. */
+.recruit-title-mobile{display:none}
+@media(max-width:920px){
+ .recruit-title-desktop{display:none}
+ .recruit-title-mobile,.recruit-title-mobile>span{display:block}
+}
