@@ -323,3 +323,9 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  .recruit-title-desktop{display:none}
  .recruit-title-mobile,.recruit-title-mobile>span{display:block}
 }
+
+/* Match the staggered two-line heading alignment on the mobile recruit page. */
+@media(max-width:920px){
+ .recruit-title-mobile>span:first-child{text-align:left}
+ .recruit-title-mobile>span:last-child{text-align:right}
+}
