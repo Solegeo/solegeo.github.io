@@ -351,7 +351,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="recruit"] .recruit-title-desktop{display:block;width:100%;max-width:100%;white-space:nowrap}
  #pageView[data-page="recruit"] .recruit-title-desktop>span{display:block}
  #pageView[data-page="recruit"] .recruit-title-desktop>span:last-child{text-align:right}
- #pageView[data-page="recruit"] .page-lead{font-size:21px;line-height:1.8;max-width:none}
+ #pageView[data-page="recruit"] .page-lead{font-size:22px;line-height:1.8;max-width:none}
  #pageView[data-page="recruit"] .content-grid{gap:24px}
  #pageView[data-page="recruit"] .content-card{padding:28px}
  #pageView[data-page="recruit"] .content-card h3{font-size:24px;margin-bottom:14px}
