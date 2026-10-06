@@ -335,3 +335,11 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  .recruit-lead-desktop{display:none}
  .recruit-lead-mobile{display:inline}
 }
+
+/* Mobile recruit privacy notice: use the card width and separate topics. */
+@media(max-width:920px){
+ .recruit-privacy{padding:20px}
+ .recruit-privacy p{width:100%;max-width:none;text-align:left;line-height:1.8;overflow-wrap:break-word;margin:0 0 16px}
+ .recruit-privacy p:last-child{margin-bottom:0}
+ .recruit-privacy h3{margin-top:0;margin-bottom:16px}
+}
