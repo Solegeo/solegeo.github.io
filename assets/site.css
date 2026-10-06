@@ -348,7 +348,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(min-width:921px){
  #pageView[data-page="recruit"] .page-hero{padding:60px 0 40px}
  #pageView[data-page="recruit"] .page-title{font-size:clamp(44px,4.4vw,58px);line-height:1.22;letter-spacing:-.035em;max-width:850px;margin-bottom:26px}
- #pageView[data-page="recruit"] .recruit-title-desktop{display:block;width:min(100%,12em);max-width:100%}
+ #pageView[data-page="recruit"] .recruit-title-desktop{display:block;width:100%;max-width:100%;white-space:nowrap}
  #pageView[data-page="recruit"] .recruit-title-desktop>span{display:block}
  #pageView[data-page="recruit"] .recruit-title-desktop>span:last-child{text-align:right}
  #pageView[data-page="recruit"] .page-lead{font-size:21px;line-height:1.8;max-width:none}
