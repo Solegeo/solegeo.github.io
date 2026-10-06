@@ -329,3 +329,9 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  .recruit-title-mobile>span:first-child{text-align:left}
  .recruit-title-mobile>span:last-child{text-align:right}
 }
+
+.recruit-lead-mobile{display:none}
+@media(max-width:920px){
+ .recruit-lead-desktop{display:none}
+ .recruit-lead-mobile{display:inline}
+}
