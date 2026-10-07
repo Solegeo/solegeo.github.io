@@ -376,3 +376,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="recruit"] .recruit-privacy p:last-child{margin-bottom:0}
  #pageView[data-page="recruit"] .cta p{font-size:18px}
 }
+
+@media(max-width:920px){
+ #pageView[data-page="recruit"] .recruit-future-card{padding-left:14px;padding-right:14px}
+ #pageView[data-page="recruit"] .recruit-future-card p{width:100%;max-width:none;text-wrap:wrap;text-align:left}
+}
