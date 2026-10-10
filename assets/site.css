@@ -427,3 +427,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(min-width:921px){
  #homeView .service-card[data-page="dx"] p br{display:initial}
 }
+
+/* Preserve the requested desktop break in the first homepage value card. */
+@media(min-width:921px){
+ #homeView .values>.value:first-child p br{display:initial}
+}
