@@ -471,3 +471,12 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .privacy-note .home-privacy-mobile{display:none}
  #homeView .privacy-note .home-privacy-desktop{display:block}
 }
+
+/* Keep desktop About copy breaks independent of the mobile layout. */
+.home-about-desktop{display:none}
+@media(min-width:921px){
+ #homeView .about-copy .home-about-mobile{display:none}
+ #homeView .about-copy .home-about-desktop{display:block}
+ #homeView .about-copy .home-about-desktop p>br{display:initial}
+ #homeView .about-copy .home-about-desktop .about-value{display:inline;margin-top:0}
+}
