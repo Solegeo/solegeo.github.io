@@ -439,3 +439,11 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .values>.value:first-child .home-value-mobile{display:none}
  #homeView .values>.value:first-child .home-value-desktop{display:inline}
 }
+
+/* Desktop second-value line break; preserve mobile text flow. */
+.home-value-calm-desktop{display:none}
+@media(min-width:921px){
+ #homeView .values>.value:nth-child(2) .home-value-calm-mobile{display:none}
+ #homeView .values>.value:nth-child(2) .home-value-calm-desktop{display:inline}
+ #homeView .values>.value:nth-child(2) p br{display:initial}
+}
