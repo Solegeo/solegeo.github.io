@@ -397,3 +397,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="sales"] .content-card:last-child p{width:calc(100% + 14px);margin-right:-14px;container-type:inline-size;text-wrap:wrap}
  #pageView[data-page="sales"] .business01-style-line{white-space:nowrap;letter-spacing:min(0px,calc((100cqw - 24em)/23))}
 }
+
+/* Keep the mobile contact second line together within the available CTA width. */
+@media(max-width:920px){
+ #pageView[data-page="sales"] .cta>div{min-width:0;width:100%}
+ #pageView[data-page="sales"] .cta p{width:calc(100% + 12px);max-width:none;margin-right:-12px;container-type:inline-size;text-wrap:wrap}
+ #pageView[data-page="sales"] .business01-contact-line{white-space:nowrap;letter-spacing:min(0px,calc((100cqw - 16em)/15))}
+}
