@@ -180,7 +180,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .privacy-note{font-size:14px;padding:18px}
  #homeView .privacy-note h3{font-size:16px}
  #homeView .privacy-note p{line-height:1.85}
- #homeView .privacy-note p br{display:none}
+ #homeView .privacy-note p br{display:initial}
 }
 
 /* Keep desktop two-line titles together, matching the About title's inset. */
