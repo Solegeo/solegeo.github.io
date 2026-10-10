@@ -432,3 +432,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(min-width:921px){
  #homeView .values>.value:first-child p br{display:initial}
 }
+
+/* Separate desktop first-value wording from the completed mobile copy. */
+.home-value-desktop{display:none}
+@media(min-width:921px){
+ #homeView .values>.value:first-child .home-value-mobile{display:none}
+ #homeView .values>.value:first-child .home-value-desktop{display:inline}
+}
