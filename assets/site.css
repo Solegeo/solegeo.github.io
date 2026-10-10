@@ -457,3 +457,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(min-width:921px){
  #homeView .people-feature-copy p br{display:initial}
 }
+
+/* Desktop contact introduction breaks; preserve the existing mobile paragraph. */
+.home-contact-desktop{display:none}
+@media(min-width:921px){
+ #homeView #contact .home-contact-mobile{display:none}
+ #homeView #contact .home-contact-desktop{display:inline}
+}
