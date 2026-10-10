@@ -414,3 +414,11 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(min-width:921px){
  #homeView .service-card[data-page="sns"] p br{display:initial}
 }
+
+/* Desktop-only creative copy; preserve the existing mobile wording and break. */
+.home-creative-desktop{display:none}
+@media(min-width:921px){
+ #homeView .service-card[data-page="creative"] .home-creative-mobile{display:none}
+ #homeView .service-card[data-page="creative"] .home-creative-desktop{display:inline}
+ #homeView .service-card[data-page="creative"] p br{display:initial}
+}
