@@ -409,3 +409,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(max-width:620px){
  #pageView[data-page="sales"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
 }
+
+/* Preserve the requested desktop line break in the homepage SNS card. */
+@media(min-width:921px){
+ #homeView .service-card[data-page="sns"] p br{display:initial}
+}
