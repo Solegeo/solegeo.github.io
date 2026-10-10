@@ -452,3 +452,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(min-width:921px){
  #homeView .values>.value:nth-child(3) p br{display:initial}
 }
+
+/* Preserve the three requested desktop lines in the homepage people introduction. */
+@media(min-width:921px){
+ #homeView .people-feature-copy p br{display:initial}
+}
