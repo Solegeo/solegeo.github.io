@@ -422,3 +422,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .service-card[data-page="creative"] .home-creative-desktop{display:inline}
  #homeView .service-card[data-page="creative"] p br{display:initial}
 }
+
+/* Preserve the requested desktop line break in the homepage DX/AI card. */
+@media(min-width:921px){
+ #homeView .service-card[data-page="dx"] p br{display:initial}
+}
