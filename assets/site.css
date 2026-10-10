@@ -447,3 +447,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .values>.value:nth-child(2) .home-value-calm-desktop{display:inline}
  #homeView .values>.value:nth-child(2) p br{display:initial}
 }
+
+/* Preserve the requested desktop break in the third homepage value card. */
+@media(min-width:921px){
+ #homeView .values>.value:nth-child(3) p br{display:initial}
+}
