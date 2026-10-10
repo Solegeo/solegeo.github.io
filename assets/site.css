@@ -385,3 +385,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(max-width:920px){
  #pageView[data-page="sales"] .page-lead{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
+
+/* Use the mobile Business 01 task card width and separate the two sentences. */
+@media(max-width:920px){
+ #pageView[data-page="sales"] .content-grid>.content-card:first-child{padding-left:14px;padding-right:14px}
+ #pageView[data-page="sales"] .content-grid>.content-card:first-child p{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
+ #pageView[data-page="sales"] .content-grid>.content-card:first-child p br.desktop-break{display:initial}
+}
