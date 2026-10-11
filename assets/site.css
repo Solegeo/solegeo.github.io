@@ -484,5 +484,5 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 /* SNS detail: fit the requested final mobile line without changing desktop. */
 @media(max-width:620px){
  #pageView[data-page="sns"] .recruit-lead-mobile{display:block;width:100%}
- #pageView[data-page="sns"] .sns-mobile-last-line{display:inline-block;font-size:clamp(11px,3.05vw,15px);letter-spacing:-.03em;white-space:nowrap}
+ #pageView[data-page="sns"] .sns-mobile-last-line{display:inline;font-size:inherit;letter-spacing:inherit;white-space:normal}
 }
