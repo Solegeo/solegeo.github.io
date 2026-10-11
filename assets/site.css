@@ -480,3 +480,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #homeView .card.about-copy .home-about-desktop p>br{display:initial}
  #homeView .about-copy .home-about-desktop .about-value{display:inline;margin-top:0}
 }
+
+/* SNS detail: fit the requested final mobile line without changing desktop. */
+@media(max-width:620px){
+ #pageView[data-page="sns"] .recruit-lead-mobile{display:block;width:100%;font-size:clamp(12px,3.1vw,16px);letter-spacing:-.025em;white-space:nowrap}
+}
