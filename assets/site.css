@@ -487,3 +487,12 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="sns"] .recruit-lead-mobile{width:calc(100% + 6px);margin-right:-6px;container-type:inline-size}
  #pageView[data-page="sns"] .sns-mobile-last-line{display:inline;font-size:inherit;white-space:normal;letter-spacing:inherit}
 }
+
+/* Use the SNS phone contact card width while retaining the button size. */
+@media(max-width:620px){
+ #pageView[data-page="sns"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
+ #pageView[data-page="sns"] .cta>div{min-width:0;width:100%}
+ #pageView[data-page="sns"] .cta p{width:100%;max-width:none;text-wrap:wrap}
+ #pageView[data-page="sns"] .cta .recruit-lead-mobile{width:100%;margin-right:0;container-type:normal}
+ #pageView[data-page="sns"] .cta .btn{width:max-content;max-width:100%;justify-self:start}
+}
