@@ -501,3 +501,11 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(max-width:920px){
  #pageView[data-page="creative"] .content-card:nth-child(3) p{width:100%;max-width:none;text-wrap:wrap}
 }
+
+/* Use the creative phone contact text width without changing text size. */
+@media(max-width:620px){
+ #pageView[data-page="creative"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
+ #pageView[data-page="creative"] .cta>div{min-width:0;width:100%}
+ #pageView[data-page="creative"] .cta p{width:100%;max-width:none;text-wrap:wrap}
+ #pageView[data-page="creative"] .cta .btn{width:max-content;max-width:100%;justify-self:start}
+}
