@@ -496,3 +496,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="sns"] .cta .recruit-lead-mobile{width:100%;margin-right:0;container-type:normal}
  #pageView[data-page="sns"] .cta .btn{width:max-content;max-width:100%;justify-self:start}
 }
+
+/* Use the creative mobile approach card text width and explicit sentence break. */
+@media(max-width:920px){
+ #pageView[data-page="creative"] .content-card:nth-child(3) p{width:100%;max-width:none;text-wrap:wrap}
+}
