@@ -522,3 +522,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(max-width:920px){
  #pageView[data-page="app"] .content-card:last-child p{width:100%;max-width:none;text-wrap:wrap}
 }
+
+/* Use the mobile qualification card text width with phrase-level breaks. */
+@media(max-width:920px){
+ #pageView[data-page="training"] .content-card:nth-child(3) p{width:100%;max-width:none;text-wrap:wrap}
+}
