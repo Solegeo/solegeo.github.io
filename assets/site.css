@@ -517,3 +517,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="app"] .cta p{width:100%;max-width:none;text-wrap:wrap}
  #pageView[data-page="app"] .cta .btn{width:max-content;max-width:100%;justify-self:start}
 }
+
+/* Use the mobile Web app future card width with the requested break. */
+@media(max-width:920px){
+ #pageView[data-page="app"] .content-card:last-child p{width:100%;max-width:none;text-wrap:wrap}
+}
