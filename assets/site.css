@@ -535,3 +535,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="training"] .cta p{width:100%;max-width:none;text-wrap:wrap}
  #pageView[data-page="training"] .cta .btn{width:max-content;max-width:100%;justify-self:start}
 }
+
+/* Use the available mobile training introduction width. */
+@media(max-width:920px){
+ #pageView[data-page="training"] .page-lead{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
+}
