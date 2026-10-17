@@ -604,7 +604,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="people"] .people-grid .person-visual{background:#fff;height:auto;min-height:0;align-self:center}
 }
 
-/* Reduce mobile member introductions by one pixel. */
+/* Match mobile member introductions and the quotation at 12px. */
 @media(max-width:920px){
- #pageView[data-page="people"] .people-grid .person-body>p:not(.voice){font-size:11px}
+ #pageView[data-page="people"] .people-grid .person-body>p{font-size:12px}
 }
