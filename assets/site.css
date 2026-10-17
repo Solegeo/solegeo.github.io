@@ -603,3 +603,8 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 @media(max-width:620px){
  #pageView[data-page="people"] .people-grid .person-visual{background:#fff;height:auto;min-height:0;align-self:center}
 }
+
+/* Reduce mobile member introductions by one pixel. */
+@media(max-width:920px){
+ #pageView[data-page="people"] .people-grid .person-body>p:not(.voice){font-size:12px}
+}
