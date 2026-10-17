@@ -574,3 +574,10 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="people"] .qa,
  #pageView[data-page="people"] .qa>span{width:100%;max-width:none;min-width:0;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
+
+/* Show every member introduction and let phone cards grow with their copy. */
+@media(max-width:620px){
+ #pageView[data-page="people"] .people-grid .person{height:auto;grid-template-rows:auto}
+ #pageView[data-page="people"] .people-grid .person-body{height:auto;max-height:none}
+ #pageView[data-page="people"] .people-grid .person-body>p:not(.voice){display:block}
+}
