@@ -563,3 +563,14 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="dx"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="dx"] .cta p{width:100%;max-width:none;text-wrap:wrap}
 }
+
+/* Use all available text width on the mobile people page. */
+@media(max-width:920px){
+ #pageView[data-page="people"] .person-body,
+ #pageView[data-page="people"] .interview>div{min-width:0;width:100%}
+ #pageView[data-page="people"] .page-lead,
+ #pageView[data-page="people"] .person-body p,
+ #pageView[data-page="people"] .interview h3,
+ #pageView[data-page="people"] .qa,
+ #pageView[data-page="people"] .qa>span{width:100%;max-width:none;min-width:0;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
+}
