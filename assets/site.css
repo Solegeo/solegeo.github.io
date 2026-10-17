@@ -584,5 +584,9 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 /* Fit each phone member image inside its column without cropping the sides. */
 @media(max-width:620px){
- #pageView[data-page="people"] .people-grid .person-visual img{width:100%;height:100%;object-fit:contain;object-position:center bottom;transform:none}
+ #pageView[data-page="people"] .people-grid .person-visual{align-items:center}
+ #pageView[data-page="people"] .people-grid .person-visual img{width:240%;max-width:none;height:auto;flex:none;object-fit:contain;object-position:center;transform:none}
+ #pageView[data-page="people"] .people-grid .person:nth-child(2) .person-visual img{width:205%}
+ #pageView[data-page="people"] .people-grid .person:nth-child(3) .person-visual img{width:205%}
+ #pageView[data-page="people"] .people-grid .person:nth-child(4) .person-visual img{width:285%}
 }
