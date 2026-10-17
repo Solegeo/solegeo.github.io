@@ -596,7 +596,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="people"] .people-grid .person{grid-template-columns:128px minmax(0,1fr)}
  #pageView[data-page="people"] .people-grid .person:nth-child(n) .person-visual img{width:auto;height:145px;max-width:none}
  #pageView[data-page="people"] .people-grid .person:nth-child(3) .person-visual img{height:160px}
- #pageView[data-page="people"] .people-grid .person:nth-child(4) .person-visual img{height:141px}
+ #pageView[data-page="people"] .people-grid .person:nth-child(4) .person-visual img{height:160px}
 }
 
 /* Remove gray bands and size mobile member image frames to their illustrations. */
