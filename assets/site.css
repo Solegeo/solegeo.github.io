@@ -604,9 +604,9 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="people"] .people-grid .person-visual{background:#fff;height:auto;min-height:0;align-self:center}
 }
 
-/* Match mobile member introductions and the quotation at 12px. */
+/* Match mobile member introductions and the quotation at 11px. */
 @media(max-width:920px){
- #pageView[data-page="people"] .people-grid .person-body>p{font-size:12px}
+ #pageView[data-page="people"] .people-grid .person-body>p{font-size:11px}
 }
 
 /* Use regular weight for the mobile representative quotation. */
