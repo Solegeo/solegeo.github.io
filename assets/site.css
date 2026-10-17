@@ -594,7 +594,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 /* Match mobile character heights to Kobayashi while preserving their full width. */
 @media(max-width:620px){
  #pageView[data-page="people"] .people-grid .person{grid-template-columns:128px minmax(0,1fr)}
- #pageView[data-page="people"] .people-grid .person .person-visual img{width:auto;height:145px;max-width:none}
+ #pageView[data-page="people"] .people-grid .person:nth-child(n) .person-visual img{width:auto;height:145px;max-width:none}
  #pageView[data-page="people"] .people-grid .person:nth-child(3) .person-visual img{height:160px}
  #pageView[data-page="people"] .people-grid .person:nth-child(4) .person-visual img{height:141px}
 }
