@@ -21,13 +21,13 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);backdro
 footer{border-top:1px solid var(--line);padding:24px 0 32px;background:#fff}.foot{display:flex;justify-content:space-between;align-items:center;gap:16px}.foot-links{display:flex;gap:16px;font-size:12px;color:var(--muted)}.foot-links button{border:0;background:none;cursor:pointer;color:inherit}
 .page-hero{padding:52px 0 32px;background:linear-gradient(120deg,rgba(255,80,0,.045),transparent 35%),linear-gradient(300deg,rgba(0,102,255,.05),transparent 40%),#fff;border-bottom:1px solid var(--line)}.breadcrumb{font-size:12px;color:var(--muted);margin-bottom:17px}.breadcrumb button{border:0;background:none;padding:0;color:inherit;cursor:pointer}.page-kicker{font-size:11px;font-weight:900;letter-spacing:.17em;color:var(--accent)}.page-title{font-size:clamp(38px,5vw,62px);line-height:1.1;letter-spacing:-.045em;margin:7px 0 14px}.page-lead{font-size:18px;color:#555c64;max-width:850px}.page-content{padding:48px 0 78px}.content-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.content-card{border:1px solid var(--line);border-radius:22px;padding:22px;background:#fff}.content-card h3{margin:0 0 9px;font-size:18px}.content-card p,.content-card li{font-size:14px;color:var(--muted)}.content-card p{margin:0}.flow-title{font-size:22px;margin:40px 0 14px}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.step{border:1px solid var(--line);border-radius:18px;padding:17px}.step b{display:block;color:var(--accent);font-size:11px;margin-bottom:5px}.step span{font-size:13px}.cta{margin-top:42px;border-radius:28px;padding:27px;background:#111;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:20px}.cta h3{font-size:24px;margin:0 0 5px}.cta p{margin:0;color:#c6cbd1}.cta .btn{background:#fff;color:#111;flex:0 0 auto}.job{border:1px solid var(--line);border-radius:24px;padding:24px;background:#fff;margin-top:18px}.job h3{font-size:25px;margin:8px 0 4px}.badge{display:inline-block;background:#fff0e9;color:#e54a00;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:900}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.meta span{background:#f3f4f6;border-radius:999px;padding:7px 10px;font-size:12px}.job dl{display:grid;grid-template-columns:160px 1fr;border-top:1px solid var(--line);margin-top:18px}.job dt,.job dd{padding:12px 0;border-bottom:1px solid var(--line)}.job dt{font-weight:800}.job dd{margin:0;color:var(--muted)}.career{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.career-card{border:1px solid var(--line);border-radius:19px;padding:18px}.career-card b{display:block;color:var(--orange);font-size:11px}.career-card h4{margin:7px 0 5px}.career-card p{font-size:13px;color:var(--muted);margin:0}.timeline{display:grid;gap:0;max-width:820px}.time-row{display:grid;grid-template-columns:90px 1fr;gap:18px;border-bottom:1px solid var(--line);padding:14px 0}.time-row b{font-size:14px}.time-row span{color:var(--muted);font-size:14px}
 .cookie{position:fixed;z-index:100;left:14px;right:14px;bottom:14px;background:#111;color:#fff;border-radius:20px;padding:17px;box-shadow:0 18px 50px rgba(0,0,0,.28);display:none}.cookie.show{display:flex;align-items:center;justify-content:space-between;gap:16px}.cookie p{font-size:12px;color:#d7d9dc;margin:0;max-width:800px}.cookie-actions{display:flex;gap:8px;flex:0 0 auto}.cookie button{border:1px solid #555;background:#222;color:#fff;padding:9px 13px;border-radius:999px;font-weight:800;cursor:pointer}.cookie .accept{background:#fff;color:#111;border-color:#fff}
-@media(max-width:920px){.links{display:none}.mobile-menu{display:flex}.hero-grid,.split,.message-grid,.recruit-callout{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(3,1fr)}.service-grid,.values,.content-grid,.blog-grid{grid-template-columns:1fr 1fr}.people-grid{grid-template-columns:repeat(2,1fr)}.interview{grid-template-columns:180px 1fr}.hero-visual{min-height:390px}.career{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.container{width:min(100% - 22px,1180px)}.nav{height:66px}.mobile-panel{top:66px}.brand img{width:42px;height:42px}.brand strong{font-size:18px}.hero{padding:30px 0 34px}.hero h1{font-size:43px}.lead{font-size:15px}.actions{display:grid}.actions .btn{width:100%}.hero-visual{min-height:300px}.quick{margin-top:-5px}.quick-grid{grid-template-columns:repeat(2,1fr);padding:9px}.service-grid,.values,.content-grid,.blog-grid,.people-grid{grid-template-columns:1fr}.section{padding:58px 0}.interview{grid-template-columns:1fr}.interview img{height:320px}.qa{grid-template-columns:1fr;gap:3px}.row{grid-template-columns:1fr;gap:3px}.flow,.career{grid-template-columns:1fr}.cta{display:grid}.cta .btn{width:100%}.job dl{grid-template-columns:1fr}.job dt{padding-bottom:0;border-bottom:0}.job dd{padding-top:3px}.foot{align-items:flex-start;flex-direction:column}.foot-links{flex-wrap:wrap}.foot-social{flex-wrap:wrap}.cookie.show{display:grid}.cookie-actions{width:100%}.cookie button{flex:1}}
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){.links{display:none}.mobile-menu{display:flex}.hero-grid,.split,.message-grid,.recruit-callout{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(3,1fr)}.service-grid,.values,.content-grid,.blog-grid{grid-template-columns:1fr 1fr}.people-grid{grid-template-columns:repeat(2,1fr)}.interview{grid-template-columns:180px 1fr}.hero-visual{min-height:390px}.career{grid-template-columns:1fr 1fr}}
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){.container{width:min(100% - 22px,1180px)}.nav{height:66px}.mobile-panel{top:66px}.brand img{width:42px;height:42px}.brand strong{font-size:18px}.hero{padding:30px 0 34px}.hero h1{font-size:43px}.lead{font-size:15px}.actions{display:grid}.actions .btn{width:100%}.hero-visual{min-height:300px}.quick{margin-top:-5px}.quick-grid{grid-template-columns:repeat(2,1fr);padding:9px}.service-grid,.values,.content-grid,.blog-grid,.people-grid{grid-template-columns:1fr}.section{padding:58px 0}.interview{grid-template-columns:1fr}.interview img{height:320px}.qa{grid-template-columns:1fr;gap:3px}.row{grid-template-columns:1fr;gap:3px}.flow,.career{grid-template-columns:1fr}.cta{display:grid}.cta .btn{width:100%}.job dl{grid-template-columns:1fr}.job dt{padding-bottom:0;border-bottom:0}.job dd{padding-top:3px}.foot{align-items:flex-start;flex-direction:column}.foot-links{flex-wrap:wrap}.foot-social{flex-wrap:wrap}.cookie.show{display:grid}.cookie-actions{width:100%}.cookie button{flex:1}}
 /* Keep Japanese headings and paragraphs from ending in short fragments. */
 h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 /* Let narrow screens wrap Japanese copy at the available width. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  br.desktop-break{display:none}
  .hero h1{font-size:clamp(34px,10vw,43px);line-height:1.16;letter-spacing:-.045em}
  .section h2{font-size:clamp(28px,8vw,36px);line-height:1.25;letter-spacing:-.035em}
@@ -42,7 +42,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .hero-title-line{display:block;white-space:nowrap}
 .hero-title-next{text-align:right}
 .no-break{white-space:nowrap}
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  .hero h1{font-size:clamp(34px,10vw,43px);line-height:1.16;letter-spacing:-.045em}
  .section h2.business-heading{font-size:clamp(27px,7.5vw,34px)}
  .mobile-line{display:block}
@@ -57,7 +57,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .mobile-social a{display:flex;justify-content:center;align-items:center;min-height:44px;border:1px solid var(--line);border-radius:12px;background:var(--soft);font-size:13px;font-weight:800}
 .social-cta{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:22px 24px;margin:22px 0;border:1px solid var(--line);border-radius:22px;background:var(--soft)}
 .social-cta h3{font-size:19px;margin:0 0 4px}.social-cta p{font-size:13px;color:var(--muted);margin:0}.social-cta-links{display:flex;gap:9px;flex-wrap:wrap}
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  .social-shortcuts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin-top:14px}
  .social-shortcuts>span{grid-column:1/-1}
  .social-shortcuts a{padding:9px 6px;font-size:12px}
@@ -70,7 +70,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 
 .section h2.about-heading{font-size:clamp(34px,4vw,52px);line-height:1.16;letter-spacing:-.04em}
 .about-heading-line{display:block;white-space:nowrap}.about-heading-line--indent{text-align:right}
-@media(max-width:620px){.section h2.about-heading{font-size:clamp(27px,7.5vw,34px);line-height:1.25;letter-spacing:-.035em}}
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){.section h2.about-heading{font-size:clamp(27px,7.5vw,34px);line-height:1.25;letter-spacing:-.035em}}
 
 
 /* Preserve the reference paragraph breaks and use the full text width. */
@@ -81,12 +81,12 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .about-copy{container-type:inline-size}
 .about-copy p{width:100%;font-size:min(14px,3.85cqw);line-height:1.85}
 .about-copy .about-value{display:block;white-space:nowrap;font-size:min(15px,4.1cqw);letter-spacing:normal;font-weight:900;color:var(--ink);margin-top:.3em}
-@media(max-width:620px){.about-copy{padding:22px 14px}.about-copy .link-btn{font-size:14px}}
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){.about-copy{padding:22px 14px}.about-copy .link-btn{font-size:14px}}
 
 .about-copy .about-challenge{font-size:min(15px,4.1cqw);letter-spacing:normal;font-weight:900;color:var(--ink);white-space:normal}
 
 .about-name-break{display:none}
-@media(max-width:620px){.about-name-break{display:block}}
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){.about-name-break{display:block}}
 
 /* Match the About heading's two-line alignment. */
 .business-heading-line{display:block;white-space:nowrap}
@@ -135,7 +135,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 .message-keep-line{white-space:nowrap}
 
 /* Desktop homepage typography. Phone and tablet rules remain unchanged. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .section h2{font-size:clamp(32px,3.2vw,44px);line-height:1.3;text-wrap:wrap}
  #homeView .lead{font-size:18px;line-height:1.85}
  #homeView .section-intro{font-size:17px;line-height:1.85;text-wrap:wrap}
@@ -184,7 +184,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Keep desktop two-line titles together, matching the About title's inset. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .business-heading-line--indent,
  #homeView .message-main>h2>span:last-child,
  #homeView .recruit-callout h2>span:last-child,
@@ -195,7 +195,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Use the desktop callout width with larger, readable text. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .recruit-callout h2,
  #homeView .blog-strip h2{
   font-size:clamp(44px,4.2vw,58px);
@@ -215,7 +215,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Balance the desktop callouts: title on the left, copy and action on the right. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .recruit-callout,
  #homeView .blog-strip{
   display:grid;
@@ -260,14 +260,14 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Keep complete phrases together in the narrower desktop copy column. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .recruit-callout p br:nth-of-type(3),
  #homeView .recruit-callout p br:nth-of-type(7),
  #homeView .blog-strip p br:nth-of-type(2){display:initial}
 }
 
 /* Give the desktop representative message a readable scale across its column. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .message-main p{
   font-size:clamp(18px,1.65vw,22px);
   line-height:1.85;
@@ -279,13 +279,13 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Keep the desktop message together with a modest inset and a shared left edge. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .message-main{padding-left:24px}
  #homeView .message-main p{text-align:left}
 }
 
 /* Refine desktop message rhythm and emphasis without changing mobile copy. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .message-main{padding-left:16px}
  #homeView .message-main>h2{color:#111;margin-bottom:24px}
  #homeView .message-main p{line-height:1.75;margin-bottom:20px}
@@ -294,7 +294,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* A single-line desktop message title leaves room for larger body text. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .message-main>h2{
   font-size:min(40px,5.3cqw);
   line-height:1.35;
@@ -313,31 +313,31 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Align the desktop message block with the requested inset beside the portrait. */
-@media (min-width:921px){
+@media (min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .message-main{padding-left:clamp(32px,4.4vw,60px)}
 }
 
 /* Separate the mobile recruitment heading from the desktop wording. */
 .recruit-title-mobile{display:none}
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  .recruit-title-desktop{display:none}
  .recruit-title-mobile,.recruit-title-mobile>span{display:block}
 }
 
 /* Match the staggered two-line heading alignment on the mobile recruit page. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  .recruit-title-mobile>span:first-child{text-align:left}
  .recruit-title-mobile>span:last-child{text-align:right}
 }
 
 .recruit-lead-mobile{display:none}
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  .recruit-lead-desktop{display:none}
  .recruit-lead-mobile{display:inline}
 }
 
 /* Mobile recruit privacy notice: use the card width and separate topics. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  .recruit-privacy{padding:20px}
  .recruit-privacy p{width:100%;max-width:none;font-size:15px;text-align:left;line-height:1.8;text-wrap:wrap;overflow-wrap:break-word;margin:0 0 16px}
  .recruit-privacy p:last-child{margin-bottom:0}
@@ -345,7 +345,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Recruit detail page: desktop only; completed mobile layout remains intact. */
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #pageView[data-page="recruit"] .page-hero{padding:60px 0 40px}
  #pageView[data-page="recruit"] .page-title{font-size:clamp(44px,4.4vw,58px);line-height:1.22;letter-spacing:-.035em;max-width:850px;margin-bottom:26px}
  #pageView[data-page="recruit"] .recruit-title-desktop{display:block;width:100%;max-width:100%;white-space:nowrap}
@@ -377,104 +377,104 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
  #pageView[data-page="recruit"] .cta p{font-size:18px}
 }
 
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="recruit"] .recruit-future-card{padding-left:14px;padding-right:14px}
  #pageView[data-page="recruit"] .recruit-future-card p{width:100%;max-width:none;text-wrap:wrap;text-align:left}
 }
 
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sales"] .page-lead{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
 
 /* Use the mobile Business 01 task card width and separate the two sentences. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sales"] .content-grid>.content-card:first-child p{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
  #pageView[data-page="sales"] .content-grid>.content-card:first-child p br.desktop-break{display:initial}
 }
 
 /* Fit the mobile style sentence using the card right-side space. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sales"] .content-card:last-child p{width:calc(100% + 14px);margin-right:-14px;container-type:inline-size;text-wrap:wrap}
  #pageView[data-page="sales"] .business01-style-line{white-space:nowrap;letter-spacing:min(0px,calc((100cqw - 24em)/23))}
 }
 
 /* Keep the mobile contact second line together within the available CTA width. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sales"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="sales"] .cta p{width:100%;max-width:none;margin-right:0;text-wrap:wrap}
  #pageView[data-page="sales"] .business01-contact-line{white-space:nowrap;letter-spacing:normal}
 }
 
 /* Fill the phone CTA grid track instead of sizing it to the button contents. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sales"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
 }
 
 /* Preserve the requested desktop line break in the homepage SNS card. */
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .service-card[data-page="sns"] p br{display:initial}
 }
 
 /* Desktop-only creative copy; preserve the existing mobile wording and break. */
 .home-creative-desktop{display:none}
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .service-card[data-page="creative"] .home-creative-mobile{display:none}
  #homeView .service-card[data-page="creative"] .home-creative-desktop{display:inline}
  #homeView .service-card[data-page="creative"] p br{display:initial}
 }
 
 /* Preserve the requested desktop line break in the homepage DX/AI card. */
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .service-card[data-page="dx"] p br{display:initial}
 }
 
 /* Preserve the requested desktop break in the first homepage value card. */
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .values>.value:first-child p br{display:initial}
 }
 
 /* Separate desktop first-value wording from the completed mobile copy. */
 .home-value-desktop{display:none}
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .values>.value:first-child .home-value-mobile{display:none}
  #homeView .values>.value:first-child .home-value-desktop{display:inline}
 }
 
 /* Desktop second-value line break; preserve mobile text flow. */
 .home-value-calm-desktop{display:none}
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .values>.value:nth-child(2) .home-value-calm-mobile{display:none}
  #homeView .values>.value:nth-child(2) .home-value-calm-desktop{display:inline}
  #homeView .values>.value:nth-child(2) p br{display:initial}
 }
 
 /* Preserve the requested desktop break in the third homepage value card. */
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .values>.value:nth-child(3) p br{display:initial}
 }
 
 /* Preserve the three requested desktop lines in the homepage people introduction. */
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .people-feature-copy p br{display:initial}
 }
 
 /* Desktop contact introduction breaks; preserve the existing mobile paragraph. */
 .home-contact-desktop{display:none}
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView #contact .home-contact-mobile{display:none}
  #homeView #contact .home-contact-desktop{display:inline}
 }
 
 /* Separate desktop privacy notice breaks from the existing mobile copy. */
 .home-privacy-desktop{display:none}
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .privacy-note .home-privacy-mobile{display:none}
  #homeView .privacy-note .home-privacy-desktop{display:block}
 }
 
 /* Keep desktop About copy breaks independent of the mobile layout. */
 .home-about-desktop{display:none}
-@media(min-width:921px){
+@media(min-width:921px), (orientation:landscape) and (max-height:500px){
  #homeView .about-copy .home-about-mobile{display:none}
  #homeView .about-copy .home-about-desktop{display:block}
  #homeView .card.about-copy .home-about-desktop p>br{display:initial}
@@ -482,14 +482,14 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* SNS detail: fit the requested final mobile line without changing desktop. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sns"] .recruit-lead-mobile{display:block;width:100%}
  #pageView[data-page="sns"] .recruit-lead-mobile{width:calc(100% + 6px);margin-right:-6px;container-type:inline-size}
  #pageView[data-page="sns"] .sns-mobile-last-line{display:inline;font-size:inherit;white-space:normal;letter-spacing:inherit}
 }
 
 /* Use the SNS phone contact card width while retaining the button size. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="sns"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
  #pageView[data-page="sns"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="sns"] .cta p{width:100%;max-width:none;text-wrap:wrap}
@@ -498,12 +498,12 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Use the creative mobile approach card text width and explicit sentence break. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="creative"] .content-card:nth-child(3) p{width:100%;max-width:none;text-wrap:wrap}
 }
 
 /* Use the creative phone contact text width without changing text size. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="creative"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
  #pageView[data-page="creative"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="creative"] .cta p{width:100%;max-width:none;text-wrap:wrap}
@@ -511,7 +511,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Use the Web app phone contact text width. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="app"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
  #pageView[data-page="app"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="app"] .cta p{width:100%;max-width:none;text-wrap:wrap}
@@ -519,17 +519,17 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Use the mobile Web app future card width with the requested break. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="app"] .content-card:last-child p{width:100%;max-width:none;text-wrap:wrap}
 }
 
 /* Use the mobile qualification card text width with phrase-level breaks. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="training"] .content-card:nth-child(3) p{width:100%;max-width:none;text-wrap:wrap}
 }
 
 /* Use the training phone contact text width while retaining the button size. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="training"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
  #pageView[data-page="training"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="training"] .cta p{width:100%;max-width:none;text-wrap:wrap}
@@ -537,35 +537,35 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Use the available mobile training introduction width. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="training"] .page-lead{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
 
 /* Let the mobile DX introduction use its full container width. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="dx"] .page-lead{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
 
 /* Use the full mobile DX current-use card text width. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="dx"] .content-grid>.content-card:first-child p{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
 
 /* Use the full mobile DX future and development card text width. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="dx"] .content-grid>.content-card:nth-child(3) p,
  #pageView[data-page="dx"] .content-grid>.content-card:nth-child(4) p{width:100%;max-width:none;text-wrap:wrap;overflow-wrap:normal;word-break:normal}
 }
 
 /* Use the mobile DX contact text width without changing its button. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="dx"] .cta{grid-template-columns:minmax(0,1fr);justify-content:stretch}
  #pageView[data-page="dx"] .cta>div{min-width:0;width:100%}
  #pageView[data-page="dx"] .cta p{width:100%;max-width:none;text-wrap:wrap}
 }
 
 /* Use all available text width on the mobile people page. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .person-body,
  #pageView[data-page="people"] .interview>div{min-width:0;width:100%}
  #pageView[data-page="people"] .page-lead,
@@ -576,14 +576,14 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Show every member introduction and let phone cards grow with their copy. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .people-grid .person{height:auto;grid-template-rows:auto}
  #pageView[data-page="people"] .people-grid .person-body{height:auto;max-height:none}
  #pageView[data-page="people"] .people-grid .person-body>p:not(.voice){display:block}
 }
 
 /* Fit each phone member image inside its column without cropping the sides. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .people-grid .person-visual{align-items:center}
  #pageView[data-page="people"] .people-grid .person-visual img{width:240%;max-width:none;height:auto;flex:none;object-fit:contain;object-position:center;transform:none}
  #pageView[data-page="people"] .people-grid .person:nth-child(2) .person-visual img{width:205%}
@@ -592,7 +592,7 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Match mobile character heights to Kobayashi while preserving their full width. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .people-grid .person{grid-template-columns:128px minmax(0,1fr)}
  #pageView[data-page="people"] .people-grid .person:nth-child(n) .person-visual img{width:auto;height:145px;max-width:none}
  #pageView[data-page="people"] .people-grid .person:nth-child(3) .person-visual img{height:160px}
@@ -600,16 +600,19 @@ h1,h2,h3,h4{text-wrap:balance}p{ text-wrap:pretty }
 }
 
 /* Remove gray bands and size mobile member image frames to their illustrations. */
-@media(max-width:620px){
+@media(max-width:620px) and (orientation:portrait), (max-width:620px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .people-grid .person-visual{background:#fff;height:auto;min-height:0;align-self:center}
 }
 
 /* Match mobile member introductions and the quotation at 11px. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .people-grid .person-body>p{font-size:11px}
 }
 
 /* Use regular weight for the mobile representative quotation. */
-@media(max-width:920px){
+@media(max-width:920px) and (orientation:portrait), (max-width:920px) and (orientation:landscape) and (min-height:501px){
  #pageView[data-page="people"] .people-grid .person-body>.voice{font-weight:400}
 }
+
+
+/* On phone-sized landscape viewports, use the web layout while keeping portrait rules intact. */
