@@ -21,7 +21,7 @@ document.head.appendChild(extraStyle);
 
 function reshapeHome(){
  const pg=document.querySelector("#homeView .people-grid");
- if(pg){const section=pg.closest("section");section.innerHTML=`<div class="container"><button class="people-feature" data-page="people"><div class="people-feature-visual"><img src="assets/img/team-strengths-v2.jpg?v=20260922-3" alt="4人それぞれの強みを表したSolegeoメンバーのイラスト"></div><div class="people-feature-copy"><div class="kicker">PEOPLE</div><h2>4人、4つの強み。</h2><p>経営、デザイン、人材強化、人事。<br>それぞれ違う得意分野を持つ4人の考え方。<br>実際に働いて感じていることをご紹介します。</p><span>メンバー紹介・社員インタビューを見る <b>→</b></span></div></button></div>`;}
+ if(pg){const section=pg.closest("section");section.innerHTML=`<div class="container"><button class="people-feature" data-page="people"><div class="people-feature-visual"><img src="assets/img/team-strengths-kobayashi.webp?v=20261116-kobayashi" alt="4人それぞれの強みを表したSolegeoメンバーのイラスト"></div><div class="people-feature-copy"><div class="kicker">PEOPLE</div><h2>4人、4つの強み。</h2><p>経営、デザイン、人材強化、人事。<br>それぞれ違う得意分野を持つ4人の考え方。<br>実際に働いて感じていることをご紹介します。</p><span>メンバー紹介・社員インタビューを見る <b>→</b></span></div></button></div>`;}
 
 }
 reshapeHome();
